@@ -2,7 +2,7 @@
 // The page: the newest version whenever the device is online (a quick check; nothing is downloaded if it hasn't changed),
 // the saved copy when it's offline or the connection is too slow. Everything else (fonts, icons) comes from the saved copy.
 // Built by lock.js, which fills in VERSION and FILES; a new upload changes VERSION, so devices pick up the new copy.
-const VERSION = "83b4b7ba2496f818";
+const VERSION = "aa91f619813bd6c9";
 const FILES = ["index.html","manifest.webmanifest","almendra-400-italic.woff2","almendra-400.woff2","almendra-700.woff2","almendra-sc-400.woff2","cinzel-decorative-700.woff2","fondamento-400-italic.woff2","fondamento-400.woff2","fonts.css","apple-touch-icon.png","favicon-64.png","icon-192.png","icon-512.png","maskable-512.png"];
 const CACHE = "vc-dm-" + VERSION;
 const PAGE = new URL("index.html", self.registration.scope).href;
