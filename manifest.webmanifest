@@ -1,0 +1,19 @@
+{
+  "name": "The Vvardenfell Compendium",
+  "short_name": "Vvardenfell",
+  "description": "The Dungeon Master's edition: every book for the campaign, with the Encounters page. Works offline.",
+  "lang": "en-GB",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4EAD5",
+  "theme_color": "#6B1D10",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Encounters", "short_name": "Encounters", "url": "./#encounter", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
